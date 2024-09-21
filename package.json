@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/bmicalculator",
+  "version": "1.1.5",
+  "description": "BMI Calculator is a simple tool for calculating body mass index. It returns the calculated BMI based on the weight and height provided.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/bmicalculator-API.git"
+  },
+  "keywords": [
+    "bmi calculator","bmi calculator api","bmi calculator tool","bmi calculator software","bmi calculator service"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/bmicalculator-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/bmicalculator?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.7"
+  }
+}
